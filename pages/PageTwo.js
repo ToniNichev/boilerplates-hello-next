@@ -24,6 +24,7 @@ class Page extends Component {
     render() {
         return (
           <div>
+          <a href="http://test.com/one">LINK 2</a>
           <p>Name: {this.state.name}</p>
           <p>Age: {this.state.age}</p>
           <button onClick={this.handleRefresh}>Refresh</button>
